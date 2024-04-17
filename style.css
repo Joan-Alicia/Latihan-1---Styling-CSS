@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+body {
+    background-image: url("Images/bg\ image\ 3.jpg");
+    font-family: "Tilt Neon", sans-serif;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%
+}
+.navbar {
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 10px;
+}
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 5px 10px;
+}
+.navbar a.active {
+   border: 3px solid rgb(255, 255, 255);
+   border-radius: 20px;
+}
+.menu{
+    height: 40px;
+    float: right;
+    margin-right: 40px;
+    padding: 0 10px;
+    margin-bottom: 10px
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-size: 5rem;
+    margin-bottom: 0rem;
+}
+p{
+    font-size: 0,5rem;
+    margin-bottom: 2rem;
+}
+button{
+    background-color:rgb(65, 11, 40);
+    font-family: "Tilt Neon", sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
